@@ -1,0 +1,67 @@
+.leftpanebox
+{
+
+flex: 2;
+height: calc(100vh - 55px);
+overflow: scroll;
+position: sticky;
+top: 55px;
+
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+
+}
+::-webkit-scrollbar-track{
+   
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #3b5998;
+    width: 5px;
+    height: 10px;
+
+}
+
+
+.leftpanecontainer{
+    padding: 20px;
+
+}
+
+.leftpanemenu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.leftpanemenuitem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+}
+
+.leftpanemenuicon{
+    margin-right: 10px;
+}
+
+.pagepic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.pagelistitem{
+    display: flex;
+    margin-top: 7px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.pagename{
+    margin-left: 6px;
+}

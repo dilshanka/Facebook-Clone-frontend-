@@ -1,0 +1,24 @@
+.postpanebox{
+
+flex: 5;
+
+
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+
+}
+::-webkit-scrollbar-track{
+   
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #3b5998;
+    width: 5px;
+    height: 10px;
+
+}
